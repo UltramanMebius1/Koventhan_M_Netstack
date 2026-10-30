@@ -1,0 +1,17 @@
+# secrets / local config - never commit
+.env
+.env.*
+!.env.example
+
+# local databases (contain password hashes and records)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
